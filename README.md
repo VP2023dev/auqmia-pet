@@ -19,6 +19,8 @@ Crie as variáveis:
 
 ## Backend
 
+Local:
+
 ```bash
 cd backend
 python -m venv .venv
@@ -27,3 +29,5 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver 8000
 ```
+
+Produção: Railway, pasta `backend`, com PostgreSQL. A Vercel fica só com o frontend.
